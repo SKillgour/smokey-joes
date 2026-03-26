@@ -1,0 +1,14 @@
+:root {
+  --color-primary: #1a1a1a;
+  --color-accent: #e85d26;
+  --color-bg: #ffffff;
+  --color-surface: #f5f5f5;
+  --color-text: #1a1a1a;
+  --color-text-muted: #666666;
+
+  --font-heading: 'Your Heading Font', serif;
+  --font-body: 'Your Body Font', sans-serif;
+
+  --radius: 8px;
+  --max-width: 1200px;
+}
