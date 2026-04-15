@@ -34,3 +34,54 @@ img { display: block; max-width: 100%; }
 @media (min-width: 768px) {
   .container { padding: 0 48px; }
 }
+
+/* ─────────────────────────────────────────
+   INTRO ANIMATION
+───────────────────────────────────────── */
+.sj-intro {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  background: var(--color-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(0);
+  transition: transform 0.56s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.sj-intro--exit {
+  transform: translateY(-100%);
+}
+
+.sj-intro__name {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: clamp(48px, 10vw, 112px);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-accent);
+  display: flex;
+  align-items: center;
+  gap: 0;
+  white-space: nowrap;
+}
+
+.sj-intro__cursor {
+  display: inline-block;
+  width: 3px;
+  height: 0.85em;
+  background: var(--color-accent);
+  margin-left: 6px;
+  vertical-align: middle;
+  opacity: 1;
+}
+
+.sj-intro__cursor--blink {
+  animation: sj-blink 0.8s step-end infinite;
+}
+
+@keyframes sj-blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import SmokeyIntro from "@/components/smokey/SmokeyIntro";
 
 export const metadata: Metadata = {
   title: "Smokey Joe's Lunch Bar | Palmerston North",
@@ -22,6 +23,7 @@ export default function RootLayout({
         />
       </head>
       <body>
+        <SmokeyIntro />
         {children}
       </body>
     </html>
