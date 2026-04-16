@@ -5,6 +5,7 @@ import SmokeyIntro from "@/components/smokey/SmokeyIntro";
 export const metadata: Metadata = {
   title: "Smokey Joe's Lunch Bar | Palmerston North",
   description: "Real food. No fuss. Homemade burgers, bain marie meals and fresh baking. Open 7am — 16 Bennett Street, Palmerston North.",
+  icons: { icon: "/favicon.svg" },
 };
 
 export default function RootLayout({
