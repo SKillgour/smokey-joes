@@ -66,7 +66,7 @@ export default function SmokeyMenu() {
                   fontSize: 9,
                   letterSpacing: '0.2em',
                   textTransform: 'uppercase',
-                  color: 'var(--color-primary)',
+                  color: '#ffffff',
                   background: 'var(--color-accent)',
                   padding: '4px 10px',
                   borderRadius: 'var(--radius)',

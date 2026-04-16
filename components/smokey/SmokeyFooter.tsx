@@ -122,7 +122,7 @@ export default function SmokeyFooter() {
               fontSize: 11,
               letterSpacing: '0.12em',
               textTransform: 'uppercase',
-              color: 'var(--color-primary)',
+              color: '#ffffff',
               background: 'var(--color-accent)',
               padding: '12px 24px',
               borderRadius: 'var(--radius)',

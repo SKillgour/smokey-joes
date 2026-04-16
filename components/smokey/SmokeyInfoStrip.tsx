@@ -7,51 +7,13 @@ export default function SmokeyInfoStrip() {
   ]
 
   return (
-    <section style={{ background: 'var(--color-accent)', padding: '0' }}>
-      <div
-        className="container"
-        style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
-          gap: 0,
-        }}
-      >
+    <section className="sj-info-strip">
+      <div className="container">
         {items.map((item, i) => (
-          <div
-            key={i}
-            style={{
-              padding: '28px 32px',
-              borderRight: i < items.length - 1 ? '1px solid rgba(24,18,14,0.2)' : 'none',
-            }}
-          >
-            <p style={{
-              fontFamily: 'var(--font-heading)',
-              fontSize: 10,
-              letterSpacing: '0.25em',
-              textTransform: 'uppercase',
-              color: 'rgba(24,18,14,0.6)',
-              marginBottom: 6,
-            }}>
-              {item.label}
-            </p>
-            <p style={{
-              fontFamily: 'var(--font-heading)',
-              fontSize: 17,
-              fontWeight: 600,
-              color: 'var(--color-primary)',
-              letterSpacing: '0.03em',
-              textTransform: 'uppercase',
-            }}>
-              {item.value}
-            </p>
-            <p style={{
-              fontFamily: 'var(--font-body)',
-              fontSize: 12,
-              color: 'rgba(24,18,14,0.65)',
-              marginTop: 3,
-            }}>
-              {item.sub}
-            </p>
+          <div key={i} className="sj-info-item">
+            <p className="sj-info-label">{item.label}</p>
+            <p className="sj-info-value">{item.value}</p>
+            <p className="sj-info-sub">{item.sub}</p>
           </div>
         ))}
       </div>
