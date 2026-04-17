@@ -8,7 +8,7 @@ export default function SmokeyAbout() {
 
           <div className="sj-about__image-wrap">
             <Image
-              src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=900&q=80"
+              src="https://images.unsplash.com/photo-1749996089724-268703b8c4dc?w=900&q=80"
               alt="Inside Smokey Joe's Lunch Bar"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"

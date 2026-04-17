@@ -11,13 +11,13 @@ const items = [
     name: 'Hot Meals',
     description: 'Rotating bain marie — always fresh, always filling. Ask what\'s on today.',
     tag: 'Changes Daily',
-    image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1770351203577-501cf0b074f9?w=600&q=80',
   },
   {
     name: 'Homemade Baking',
-    description: 'Slices, muffins, scrolls and more. Made in-house every morning.',
+    description: 'Pies, sausage rolls, slices and more. Made in-house every morning.',
     tag: 'Fresh Daily',
-    image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1762207817593-3b98be2917cb?w=600&q=80',
   },
   {
     name: 'Hot Drinks',
